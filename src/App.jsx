@@ -9,6 +9,7 @@ import {
   Github,
   Linkedin,
 } from "lucide-react";
+import "./App.css"
 
 const App = () => {
   const [activeSection, setActiveSection] = useState("inicio");
@@ -423,8 +424,8 @@ const App = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
             <div className="w-40 h-40 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1">
-              <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center text-6xl font-bold">
-                TN
+              <div className="w-full h-full rounded-full bg-transparent flex items-center justify-center text-6xl font-bold over">
+                <img src="./diegopc.jpeg" alt="" />
               </div>
             </div>
           </div>
